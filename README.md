@@ -81,8 +81,7 @@ The app requires a **Google API key** (set as the `GOOGLE_API_KEY` environment v
 
 ## ⚡ FastAPI MCP
 
-The **FastAPI MCP** (Machine-Readable Control Plane) exposes the `/mcp` endpoint, which describes the API's tools and their schemas. This allows other systems or AI agents to discover and interact with the `analyze_budget` endpoint programmatically. No authentication key is required, making it accessible to all users.
-
+The **FastAPI MCP** (Machine-Readable Control Plane) exposes the `/mcp` endpoint, which describes the API's tools and their schemas. This allows other systems or AI agents to discover and interact with the `analyze_budget` endpoint programmatically.
 ## 🕸️ Multi-Agent Architecture
 
 The app uses a **sequential multi-agent system** powered by Google's Gemini API:
