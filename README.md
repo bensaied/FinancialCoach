@@ -25,7 +25,7 @@ The app requires a **Google API key** (set as the `GOOGLE_API_KEY` environment v
 ## Prerequisites
 
 - **Docker**: Install Docker to run the container ([Install Docker](https://docs.docker.com/get-docker/)).
-- **Google API Key**: Generate a key with Gemini API access from [Google Cloud Console](https://console.cloud.google.com/apis/credentials).
+- **Google API Key**: Generate a key with Gemini API access from [Google Cloud Console](https://aistudio.google.com/apikey).
 
 ## Quick Start
 
