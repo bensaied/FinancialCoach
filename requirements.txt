@@ -1,0 +1,11 @@
+fastapi==0.116.1
+deprecated==1.2.18
+fastmcp==2.10.5
+fastapi_mcp==0.3.7
+uvicorn==0.35.0
+pydantic==2.11.7
+google-adk==0.1.0
+pandas==2.1.1
+matplotlib==3.8.0
+numpy==1.26.0
+asyncio==3.4.3
