@@ -117,7 +117,7 @@ Feel free to fork this repository, submit pull requests, or open issues to sugge
 
 ## 🔓 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (if added).
+This project is licensed under the MIT License.
 
 ## 📝 Authors
 
