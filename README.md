@@ -2,7 +2,7 @@
 
 Financial Coach MCP is a FastAPI-based application that provides personalized financial advice using a multi-agent architecture powered by Google's Gemini API. It analyzes your budget, suggests savings strategies, and offers debt reduction plans. The app is containerized with Docker and available on [Docker Hub](https://hub.docker.com/r/bensaied/financial-coach-mcp) for easy deployment and public use.
 
-## Features
+## 🔥 Features
 
 - **Budget Analysis**: Categorizes your expenses and provides recommendations to optimize spending.
 - **Savings Strategies**: Suggests emergency fund sizes and savings plans based on your income and expenses.
@@ -11,7 +11,7 @@ Financial Coach MCP is a FastAPI-based application that provides personalized fi
 - **FastAPI MCP**: Exposes a Machine-Readable Control Plane (MCP) for easy integration with other systems.
 - **Publicly Accessible**: Deploy and use the Docker image with your Google API key.
 
-## How It Works
+## 🔍 How It Works
 
 The application uses **FastAPI** to provide a RESTful API and integrates with **FastAPI MCP** to expose a control plane (`/mcp`) for discovering available tools. The core logic is powered by a **multi-agent architecture** using Google's Gemini API:
 
@@ -22,12 +22,12 @@ The application uses **FastAPI** to provide a RESTful API and integrates with **
 
 The app requires a **Google API key** (set as the `GOOGLE_API_KEY` environment variable) to access the Gemini API.
 
-## Prerequisites
+## 📦 Prerequisites
 
 - **Docker**: Install Docker to run the container ([Install Docker](https://docs.docker.com/get-docker/)).
 - **Google API Key**: Generate a key with Gemini API access from [Google Cloud Console](https://aistudio.google.com/apikey).
 
-## Quick Start
+## 🚀 Quick Start
 
 1. **Pull the Docker Image**:
 
@@ -73,17 +73,17 @@ The app requires a **Google API key** (set as the `GOOGLE_API_KEY` environment v
    ```
    Returns a JSON response with budget analysis, savings strategies, and debt reduction plans.
 
-## Project Structure
+## 📁 Project Structure
 
 - **`main.py`**: The FastAPI application with the multi-agent logic and MCP integration.
 - **`Dockerfile`**: Defines the Docker image, using Python 3.11 and Uvicorn.
 - **`requirements.txt`**: Lists dependencies (FastAPI, fastapi_mcp, google-cloud-aiplatform, etc.).
 
-## FastAPI MCP
+## ⚡ FastAPI MCP
 
 The **FastAPI MCP** (Machine-Readable Control Plane) exposes the `/mcp` endpoint, which describes the API's tools and their schemas. This allows other systems or AI agents to discover and interact with the `analyze_budget` endpoint programmatically. No authentication key is required, making it accessible to all users.
 
-## Multi-Agent Architecture
+## 🕸️ Multi-Agent Architecture
 
 The app uses a **sequential multi-agent system** powered by Google's Gemini API:
 
@@ -94,11 +94,11 @@ The app uses a **sequential multi-agent system** powered by Google's Gemini API:
 
 This modular design ensures comprehensive financial advice tailored to your input.
 
-## Inspiration
+## ✨ Inspiration
 
 This project is inspired by the [AI Financial Coach Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent), a Streamlit application that uses a similar multi-agent approach for financial analysis. We adapted the concept into a FastAPI-based API, added Docker support, and integrated FastAPI MCP for broader accessibility and integration.
 
-## Troubleshooting
+## 🛠️ Troubleshooting
 
 - **401 Unauthorized**:
   - Verify `GOOGLE_API_KEY` is set correctly in the `docker run` command (e.g., `-e GOOGLE_API_KEY=your-google-api-key`).
@@ -111,11 +111,11 @@ This project is inspired by the [AI Financial Coach Agent](https://github.com/Sh
   ```
   Look for `INFO:main:Retrieved GOOGLE_API_KEY` or `ERROR:main:Missing GOOGLE_API_KEY`.
 
-## Contributing
+## 🤝 Contributing
 
 Feel free to fork this repository, submit pull requests, or open issues to suggest improvements or report bugs. The project is open for public use, so share your feedback to make it better!
 
-## License
+## 🔓 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (if added).
 
