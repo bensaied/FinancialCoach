@@ -77,11 +77,12 @@ The app requires a **Google API key** (set as the `GOOGLE_API_KEY` environment v
 
 - **`main.py`**: The FastAPI application with the multi-agent logic and MCP integration.
 - **`Dockerfile`**: Defines the Docker image, using Python 3.11 and Uvicorn.
-- **`requirements.txt`**: Lists dependencies (FastAPI, fastapi_mcp, google-cloud-aiplatform, etc.).
+- **`requirements.txt`**: Lists dependencies (fastapi, fastapi_mcp, google-adk, etc.).
 
 ## ⚡ FastAPI MCP
 
 The **FastAPI MCP** (Machine-Readable Control Plane) exposes the `/mcp` endpoint, which describes the API's tools and their schemas. This allows other systems or AI agents to discover and interact with the `analyze_budget` endpoint programmatically.
+
 ## 🕸️ Multi-Agent Architecture
 
 The app uses a **sequential multi-agent system** powered by Google's Gemini API:
