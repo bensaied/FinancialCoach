@@ -119,8 +119,6 @@ Feel free to fork this repository, submit pull requests, or open issues to sugge
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (if added).
 
----
-
 ## 📝 Authors
 
 - Github: [@bensaied](https://www.github.com/bensaied)
