@@ -2,6 +2,8 @@
 
 Financial Coach MCP is a FastAPI-based application that provides personalized financial advice using a multi-agent architecture powered by Google's Gemini API. It analyzes your budget, suggests savings strategies, and offers debt reduction plans. The app is containerized with Docker and available on [Docker Hub](https://hub.docker.com/r/bensaied/financial-coach-mcp) for easy deployment and public use.
 
+![Logo](https://i.ibb.co/jPqB7fX5/AI-Financial-Coach-Logo.png)
+
 ## 🔥 Features
 
 - **Budget Analysis**: Categorizes your expenses and provides recommendations to optimize spending.
