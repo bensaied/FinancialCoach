@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/bensaied-financialcoach-badge.png)](https://mseep.ai/app/bensaied-financialcoach)
+
 # 💰 Financial Coach MCP
 
 Financial Coach MCP is a FastAPI-based application that provides personalized financial advice using a multi-agent architecture powered by Google's Gemini API. It analyzes your budget, suggests savings strategies, and offers debt reduction plans. The app is containerized with Docker and available on [Docker Hub](https://hub.docker.com/r/bensaied/financial-coach-mcp) for easy deployment and public use.
